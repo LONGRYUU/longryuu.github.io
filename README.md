@@ -1,2 +1,2 @@
 # longryuu.github.io
-this i
+this is created for marking down some notes during study
