@@ -36,6 +36,15 @@ this is created for marking down some notes during study
 
 F1度量=2*P*R/（P+R），其拥有更为一般的形式，当参数β大于1，使查全率更重要；当其小于1，使查准率更重要。
 
+P-R图与ROC图。
+
+ROC相关：真正例率TPR=TP/(TP+FN)，假正例率FPR=FP/(TN+FP)
+
+损失与AUC：设损失为l，则AUC=1-l,其中AUC为ROC曲线下面积，l即为ROC曲线上的面积
+
+非均等代价：为不同错误赋予不同的代价（cost）。
+
+代价敏感错误率：在错误率的基础上，给不同错误发生的次数乘以代价权值。
 
 ## 模型评估
 
