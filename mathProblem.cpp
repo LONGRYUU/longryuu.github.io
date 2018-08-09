@@ -6,7 +6,8 @@
 #include<math.h>
 #include<malloc.h>
 using namespace std;
-
+/*求最大公约数和最小公倍数，素数判断*/
+/*最小公倍数可以转化为求最大公约数，注意为公约数为0的情况*/
 int gcd(int a, int b)
 {
     if(a < b)
@@ -48,21 +49,6 @@ int judgePrime(int x)
 
 int main()
 {
-    int n, k;
-    scanf("%d%d", &n, &k);
-    int light[n];
-    memset(light, -1, sizeof(light));
-    for(int i = 0; i < n; i++)
-        printf("%d ", light[i]);
-    for(int i = 1; i <= k; i++)
-    {
-        for(int j = 0; j < n; j++)
-        {
-            if((j + 1) % i == 0) light[j] = ~light[j];
-        }
-    }
-    for(int i = 0; i < n; i++)
-        if(light[i] == 0)
-            printf("%d ", i + 1);
+    /*code*/
     return 0;
 }
