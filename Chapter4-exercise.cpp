@@ -794,12 +794,6 @@ void IPNetWorks()
 
 }
 
-void RAID()
-{
-    int d, s, b;
-    scanf("%d %d %d", &d, &s, &b);
-}
-
 int main()
 {
     IPNetWorks();
